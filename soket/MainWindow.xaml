@@ -1,0 +1,20 @@
+﻿<Window x:Class="soket.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:soket"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="401.107" Width="486.72">
+    <Grid Background="#FFF309E9">
+        <TextBox x:Name="TxtPorta" HorizontalAlignment="Left" Height="23" Margin="40,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="TxtIndirizzo" HorizontalAlignment="Left" Height="23" Margin="175,40,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnCreaSoket" Content="Crea Soket" HorizontalAlignment="Left" Height="62" Margin="300,40,0,0" VerticalAlignment="Top" Width="120" Click="btnCreaSoket_Click"/>
+        <Label x:Name="lbaStoricoChat" Content="" HorizontalAlignment="Left" Height="223" Margin="300,137,0,0" VerticalAlignment="Top" Width="150"/>
+        <TextBox x:Name="txtMsgSend" HorizontalAlignment="Left" Height="68" Margin="40,201,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnInviaMsg" Content="Invia Messaggio" HorizontalAlignment="Left" Height="32" Margin="40,292,0,0" VerticalAlignment="Top" Width="120" Click="btnInviaMsg_Click"/>
+        <TextBlock HorizontalAlignment="Left" Height="15" Margin="40,22,0,0" TextWrapping="Wrap" Text="Indirizzo IP" VerticalAlignment="Top" Width="53"/>
+        <TextBlock HorizontalAlignment="Left" Height="15" Margin="175,20,0,0" TextWrapping="Wrap" Text="Porta" VerticalAlignment="Top" Width="57"/>
+
+    </Grid>
+</Window>
